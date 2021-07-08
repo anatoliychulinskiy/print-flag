@@ -1,0 +1,9 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_invoice">
+        <column xsi:type="tinyint" name="is_printed" nullable="false" default="0" comment="Is Printed"/>
+    </table>
+    <table name="sales_invoice_grid">
+        <column xsi:type="tinyint" name="is_printed" nullable="false" default="0" comment="Is Printed"/>
+    </table>
+</schema>

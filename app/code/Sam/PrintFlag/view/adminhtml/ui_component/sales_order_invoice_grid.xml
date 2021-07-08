@@ -1,0 +1,11 @@
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="sales_order_invoice_columns">
+        <column name="is_printed" class="Sam\PrintFlag\Ui\Component\Listing\Column\IsPrinted">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Is Printed?</item>
+                </item>
+            </argument>
+        </column>
+    </columns>
+</listing>
